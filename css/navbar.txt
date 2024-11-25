@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: #5694C4;
+    font-family: Roboto;
+    padding: 10px 20px;
+}
+
+/* Navbar Layout */
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+    padding: 5px 10px; /* Add padding to logo */
+}
+
+.logo img {
+    height: 200px; /* Default logo height */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+/* Navigation Links */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 100px; /* Space between links */
+}
+
+li a {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Links */
+li a:hover {
+    color: #333;
+}
+
+/* Responsive Design: Mobile View */
+@media (max-width: 768px) {
+    /* Stack elements vertically */
+    .navdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Logo Adjustments */
+    .logo {
+        padding: 10px; /* Increase padding on smaller screens */
+    }
+
+    .logo img {
+        height: 40px; /* Smaller logo for mobile */
+    }
+
+    /* Navigation Links */
+    ul {
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px; /* Smaller spacing between links */
+    }
+
+    li a {
+        font-size: 16px; /* Slightly smaller text for mobile */
+    }
+}
