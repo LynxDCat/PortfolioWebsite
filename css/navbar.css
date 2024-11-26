@@ -6,7 +6,7 @@ body {
   position: relative;
   font-family: Roboto;
   margin: 0;
-  background-color: #baa2a2;
+  background-color: #e8e8e8;
   color: white;
 }
 
@@ -16,7 +16,7 @@ body {
   height: 100vh; /* Make the slanted edge take full viewport height */
   width: 60vw; /* Make it take half of the viewport width */
   clip-path: polygon(var(--p) 0, 100% 0, 100% 100%, 0 100%);
-  background: #5694c4;
+  background: #212121;
   position: absolute;
   top: 0;
   right: 0; /* Align it to the right side */
@@ -42,8 +42,8 @@ body {
 .logo img {
   display: inline-block;
   padding-left: 50px;
-  padding-top: 25px;
-  height: 150px;
+  margin-top: 25px;
+  height: 75px;
   width: auto;
 }
 
@@ -56,6 +56,7 @@ body {
 
 .navmenu_items {
   margin: 0px 15px;
+  margin-top: 20px;
   padding: 0;
   list-style: none;
   display: inline-block;
@@ -64,22 +65,90 @@ body {
 .navmenu_items a {
   text-decoration: none;
   font-size: 30px;
-  color: white;
-  font-weight: bold;
+  color: #e8e8e8;
+  font-weight:400;
   padding: 3px 0;
 }
 
-.navmenu_itemsBtn {
-  display: inline-block;
-  background-color: #baa2a2;
-  padding: 8px 16px;
-  border-radius: 40px;
+.bn5 {
+  padding: 0.3em 1em;
+  margin-left: -5px;
+  border: none;
+  outline: none;
+  color: #e8e8e8;
+  font-size: 30px;
+  background: #212121;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-family: Roboto, sans-serif; /* Match font style */
+  font-weight: 400;
+  transition: color 0.3s ease;
 }
 
-.navmenu_itemsBtn a {
-  font-size: 30px;
-  font-weight: bold;
-  color: #2c508a;
+.bn5:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowingbn5 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowingbn5 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.bn5:active {
+  color: #000;
+}
+
+.bn5:active:after {
+  background: transparent;
+}
+
+.bn5:hover:before {
+  opacity: 1;
+}
+
+.bn5:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #191919;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 .navmenu_items a:hover,
@@ -140,7 +209,7 @@ body {
 .lPTxt3 {
   font-family: Raleway;
   font-weight: bold;
-  color: #dbdbdb;
+  color: #909090;
   font-size: 20px;
   display: block;
   width: 80%;
@@ -165,7 +234,7 @@ body {
 
 .wrapper .icon {
   position: relative;
-  background: #DBC8C2;
+  background: #e8e8e8;
   border-radius: 50%;
   margin: 10px;
   width: 50px;
@@ -175,7 +244,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4), 
+  0px 1px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -187,7 +258,7 @@ body {
 
 /* On hover, change the icon color to white */
 .wrapper .icon:hover svg {
-  color: #DBC8C2;
+  color: #fff;
 }
 
 .wrapper .tooltip {
@@ -232,26 +303,26 @@ body {
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background: #212121;
-  color: #DBC8C2;
+  color: #fff;
 }
 
 .wrapper .linkedin:hover,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
   background: #0A66C2;
-  color: #DBC8C2;
+  color: #fff;
 }
 
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
   background: #1877f2;
-  color: #DBC8C2;
+  color: #fff;
 }
 
 .wrapper .tiktok:hover,
 .wrapper .tiktok:hover .tooltip,
 .wrapper .tiktok:hover .tooltip::before {
   background: #212121;
-  color: #DBC8C2;
+  color: #fff;
 }

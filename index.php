@@ -30,10 +30,9 @@
                     <li class="navmenu_items">
                         <a href="#">Portfolio</a>
                     </li>
-                    <li class="navmenu_itemsBtn">
-                        <a href="#">Contact Me</a>
-                    </li>
+                        <a href="#" class="bn5">Hover</a>
                 </ul>
+                
             </div>
         </nav>
 
@@ -45,7 +44,7 @@
             <p class="lPTxt1">Hi, I am</p>
             <div class="text-container">
                 <h1 class="lPTxt2">Jay Ruiz De Ocampo</h1>
-                <p class="lPTxt3">BS Computer Engineering Student / Game Developer / Streamer</p>
+                <p class="lPTxt3">BS Computer Engineering Student | Game Developer | Streamer</p>
             </div>
             <div class="button-container">
                 <ul class="wrapper">
