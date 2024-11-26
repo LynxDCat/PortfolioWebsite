@@ -50,7 +50,7 @@ body {
 .navmenu {
   display: inline-block;
   text-align: right;
-  width: calc(100%-90px);
+  width: calc(100% - 90px); /* Fixed spacing syntax */
   vertical-align: middle;
 }
 
@@ -64,27 +64,79 @@ body {
 
 .navmenu_items a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
+  font-family: Montserrat;
   color: #e8e8e8;
-  font-weight:400;
+  font-weight: 400;
+  position: relative;
   padding: 3px 0;
+  overflow: hidden; /* Ensure the animation stays within bounds */
+  z-index: 2;
+}
+
+.navmenu_items a:before {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Start at the bottom for underline effect */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  background: #e8e8e8; /* Initial white color for the underline */
+  transform: scaleX(0); /* Start with no visible underline */
+  transform-origin: left; /* Animate from left to right */
+  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+}
+
+.navmenu_items a:after {
+  content: '';
+  position: absolute;
+  top: -10%; /* Extend above the text */
+  left: -20%; /* Extend to the left of the text */
+  width: 140%; /* Wider than the text */
+  height: 120%; /* Taller than the text */
+  background: #e8e8e8; /* Fill color */
+  transform: scaleY(0); /* Start collapsed */
+  transform-origin: bottom; /* Expand upward from the bottom */
+  transition: transform 0.3s ease-in-out; /* Smooth upward fill */
+  z-index: -1; /* Place behind the text */
+}
+
+.navmenu_items a:hover {
+  color: #212121; /* Change text color on hover */
+}
+
+.navmenu_items a:hover:before {
+  transform: scaleX(1); /* Expand the underline */
+}
+
+.navmenu_items a:hover:after {
+  transform: scaleY(1); /* Expand upward */
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .bn5 {
   padding: 0.3em 1em;
-  margin-left: -5px;
   border: none;
   outline: none;
   color: #e8e8e8;
-  font-size: 30px;
+  font-size: 25px;
   background: #212121;
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 10px;
-  font-family: Roboto, sans-serif; /* Match font style */
+  font-family: Montserrat; /* Match font style */
   font-weight: 400;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .bn5:before {
@@ -149,12 +201,6 @@ body {
   left: 0;
   top: 0;
   border-radius: 10px;
-}
-
-.navmenu_items a:hover,
-.navmenu_items a:active {
-  color: gray;
-  border-bottom: 5px solid gray;
 }
 
 .navmenu_itemsBtn:hover,
