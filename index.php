@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 <body>
     <header>
@@ -25,7 +26,6 @@
                     <li class="navmenu_items"><a href="#">Portfolio</a></li>
                     <a href="#" class="bn5">Contact Me</a>
                 </ul>
-                
             </div>
         </nav>
 
@@ -87,6 +87,152 @@
             </div>
         </div>
     </header>
+
+    <div class="achievementspart">
+        <div class="achievement-title">
+            <h1>ACHIEVEMENTS</h1>
+        </div>
+
+        <div class="achievement-container">
+            <div class="first-achievement-desc">
+                <h1>Chess Tournament</h1>
+                <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                    <br>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                </p>
+            </div>
+            <div class="chessimg">
+                <img src="assets/images/chesstournament.jpg" alt="Chess tournament">
+            </div>
+        </div>
+
+        <hr class="horizontal-line">
+
+        <div class="achievement-container">
+            <div class="icpepimg">
+                <img src="assets/images/icpepcert.jpg" alt="ICPEP Certificate">
+            </div>
+            <div class="second-achievement-desc">
+                <h1>Chess Tournament</h1>
+                <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                    <br>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                </p>
+            </div>
+        </div>
+
+        <hr class="horizontal-line">
+
+        <div class="achievement-container">
+            <div class="third-achievement-desc">
+                <h1>Chess Tournament</h1>
+                <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                    <br>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.
+                    Eum asperiores voluptatibus in enim vitae sed cumque repudiandae et asperiores
+                    ipsum qui Quis excepturi in placeat dolore et eveniet magnam.
+                </p>
+            </div>
+            <div class="gradimg">
+                <img src="assets/images/graduation.png" alt="Graduation image">
+            </div>
+        </div>
+    </div>
+
+    <div class="timelinepart">
+        <div class="timeline-title">
+            <h1>TIMELINE</h1>
+        </div>
+        <div class="timelinepage">
+            <div class="timeline">
+                <div class="container left-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Alphabet Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container right-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Google Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container left-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Amazon Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container right-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Tesla Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container left-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Amazon Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container right-container">
+                    <img src="assets/images/Logo.png">
+                    <div class="text-box">
+                        <h2>Tesla Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p>The success of every website depends on search engine optimization and digital
+                            marketing strategy. If you are on the first page of all major search engines...
+                        </p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skillspart">
+        <div class="skills-title">
+            <h1>SKILLS</h1>
+        </div>
+    </div>
 </body>
 
 </html>
