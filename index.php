@@ -496,9 +496,9 @@
                 <div class="modalcontent">
                     <div class="modal-images-div">
                     <div class="proj3-img1">
-                            <img src="assets/images/proj2-1.jpeg" alt="Project 1">
-                            <img src="assets/images/proj2-2.jpeg" alt="Project 1">
-                            <img src="assets/images/proj2-3.jpeg" alt="Project 1">
+                            <img src="assets/images/WORD OF THE DAY PAGE 1.png" alt="Project 1">
+                            <img src="assets/images/SEARCH BAR PAGE.png" alt="Project 1">
+                            <img src="assets/images/RECENT WORD PAGE.png" alt="Project 1">
                         </div>
                     </div>
                     <div class="modaldesc">
