@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+
 <body>
     <header>
         <nav class="navbar">
@@ -93,16 +94,18 @@
 
         <div class="intro-desc">
             <h1>Meet Jay</h1>
-            <p>Lorem ipsum dolor sit amet. Cum voluptatum reprehenderit et saepe earum 
-                non quam quia est expedita dolorem. Et consectetur cumque eos pariatur 
-                repellendus ut quaerat esse et vero omnis. </p><p>Et cumque tempore sit 
-                laboriosam magni cum pariatur beatae. Aut suscipit quae ut inventore 
-                omnis ut doloribus expedita. </p><p>Hic aliquam laborum vel explicabo 
-                odit eum atque excepturi At adipisci architecto et minus expedita? 
-                Sit laboriosam galisum nam dicta galisum est magnam ipsa ex dignissimos 
+            <p>Lorem ipsum dolor sit amet. Cum voluptatum reprehenderit et saepe earum
+                non quam quia est expedita dolorem. Et consectetur cumque eos pariatur
+                repellendus ut quaerat esse et vero omnis. </p>
+            <p>Et cumque tempore sit
+                laboriosam magni cum pariatur beatae. Aut suscipit quae ut inventore
+                omnis ut doloribus expedita. </p>
+            <p>Hic aliquam laborum vel explicabo
+                odit eum atque excepturi At adipisci architecto et minus expedita?
+                Sit laboriosam galisum nam dicta galisum est magnam ipsa ex dignissimos
                 veritatis non totam placeat. Ut doloribus iusto aut earum impedit et dicta
-                galisum est aliquam cumque et distinctio harum qui dicta veritatis. 
-                Est officiis officiis hic ipsam voluptates vel nesciunt sapiente qui 
+                galisum est aliquam cumque et distinctio harum qui dicta veritatis.
+                Est officiis officiis hic ipsam voluptates vel nesciunt sapiente qui
                 quia consequatur est autem ipsum est accusantium fuga sed odit ipsa.
             </p>
 
@@ -195,7 +198,7 @@
                 <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
                 <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
                 <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
-            </div>    
+            </div>
         </div>
     </div>
 
@@ -279,7 +282,170 @@
         <div class="project-title">
             <h1>PROJECTS</h1>
         </div>
+        <div class="first-row" id="first-row">
+            <div class="modal" id="modalbox">
+                <div class="modalcontent">
+                    <div class="modal-images-div">
+                        <div class="proj1-img1">
+                            <img src="assets/images/proj1.png" alt="Project 1">
+                        </div>
+                        <div class="proj1-img2">
+                            <img src="assets/images/proj1-pic1.png" alt="Project 1">
+                            <img src="assets/images/proj1-pic3.png" alt="Project 1">
+                        </div>
+                    </div>
+                    <div class="modaldesc">
+                        <h1>Barangay Scheduling KIOSK</h1>
+                        <p>You can create a modals with Zero Javascript. Using
+                            with only Pure CSS Enjoy!
+                        </p>
+                    </div>
+                    <a href="#modalcontent" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modalbox2">
+                <div class="modalcontent">
+                    <div class="modal-images-div">
+                        <div class="proj1-img1">
+                            <img src="assets/images/proj1.png" alt="Project 1">
+                        </div>
+                        <div class="proj1-img2">
+                            <img src="assets/images/proj1-pic1.png" alt="Project 1">
+                            <img src="assets/images/proj1-pic3.png" alt="Project 1">
+                        </div>
+                    </div>
+                    <div class="modaldesc">
+                        <h1>Barangay Scheduling KIOSK 2</h1>
+                        <p>You can create a modals with Zero Javascript. Using
+                            with only Pure CSS Enjoy!
+                        </p>
+                    </div>
+                    <a href="#modalcontent" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <div class="modal" id="modalbox3">
+                <div class="modalcontent">
+                    <div class="modal-images-div">
+                        <div class="proj1-img1">
+                            <img src="assets/images/proj1.png" alt="Project 1">
+                        </div>
+                        <div class="proj1-img2">
+                            <img src="assets/images/proj1-pic1.png" alt="Project 1">
+                            <img src="assets/images/proj1-pic3.png" alt="Project 1">
+                        </div>
+                    </div>
+                    <div class="modaldesc">
+                        <h1>Barangay Scheduling KIOSK 3</h1>
+                        <p>You can create a modals with Zero Javascript. Using
+                            with only Pure CSS Enjoy!
+                        </p>
+                    </div>
+                    <a href="#modalcontent" class="modalclose">&times;</a>
+                </div>
+            </div>
+
+            <div class="first-proj">
+                <div class="images">
+                    <img src="assets/images/proj1.png" alt="Project 1">
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet. In neque vero in ducimus
+                        facilis vel alias voluptates aut quia vero qui velit quidem.
+                        Eos officia corporis qui fuga dolores sit labore nobis non
+                        recusandae dolorum et amet enim. <br>
+                        Rem reprehenderit suscipit eum pariatur quia aut facere voluptatem
+                        sit numquam deserunt aut quaerat commodi. Sit enim voluptate est
+                        consequatur molestiae vel nemo itaque aut omnis molestias! Et amet
+                        aperiam 33 reprehenderit doloribus eos iste sunt. Ex voluptas dolore
+                        et deleniti exercitationem aut quasi aliquid?
+                    </p>
+                    <div class="button-div">
+                        <a class="bn39" href="#modalbox"><span class="bn39span">Button</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-proj">
+                <div class="images">
+                    <img src="assets/images/proj1.png" alt="Project 1">
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet. In neque vero in ducimus
+                        facilis vel alias voluptates aut quia vero qui velit quidem.
+                        Eos officia corporis qui fuga dolores sit labore nobis non
+                        recusandae dolorum et amet enim. <br>
+                        Rem reprehenderit suscipit eum pariatur quia aut facere voluptatem
+                        sit numquam deserunt aut quaerat commodi. Sit enim voluptate est
+                        consequatur molestiae vel nemo itaque aut omnis molestias! Et amet
+                        aperiam 33 reprehenderit doloribus eos iste sunt. Ex voluptas dolore
+                        et deleniti exercitationem aut quasi aliquid?
+                    </p>
+                    <div class="button-div">
+                        <a class="bn39" href="#modalbox2"><span class="bn39span">Button</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="third-proj">
+                <div class="images">
+                    <img src="assets/images/proj1.png" alt="Project 1">
+                </div>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet. In neque vero in ducimus
+                        facilis vel alias voluptates aut quia vero qui velit quidem.
+                        Eos officia corporis qui fuga dolores sit labore nobis non
+                        recusandae dolorum et amet enim. <br>
+                        Rem reprehenderit suscipit eum pariatur quia aut facere voluptatem
+                        sit numquam deserunt aut quaerat commodi. Sit enim voluptate est
+                        consequatur molestiae vel nemo itaque aut omnis molestias! Et amet
+                        aperiam 33 reprehenderit doloribus eos iste sunt. Ex voluptas dolore
+                        et deleniti exercitationem aut quasi aliquid?
+                    </p>
+                    <div class="button-div">
+                        <a class="bn39" href="#modalbox3"><span class="bn39span">Button</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="educationpart">
+        <div class="education-title">
+            <h1>EDUCATION</h1>
+        </div>
+
+        <div class="education-container">
+            <div class="elem-container">
+                <img src="assets/images/elemLogo.jpg" alt="Elem Logo">
+                <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.</p>
+            </div>
+            <div class="hscontainer">
+                <div class="hs-container">
+                    <img src="assets/images/hsLogo.jpg" alt="HS Logo">
+                    <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
+                        quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
+<footer>
+    <div class="footer-button">
+        <a class="button" href="#">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+            </svg>
+        </a>
+    </div>
+    <div class="copyright">
+        <p>@2024 Jay Ruiz De Ocampo All Rights Reserved.</p>
+    </div>
+
+</footer>
 
 </html>

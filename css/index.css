@@ -388,7 +388,7 @@ header {
 }
 
 .introduction{
-  background-color: #e2e2e2;
+  background-color: #e8e8e8;
   padding-top: 50px;
   padding-bottom: 50px;
   height: fit-content;
@@ -430,7 +430,7 @@ header {
 .achievementspart h1{
   font-family: Yeseva One;
   font-size: 60px;
-  color: #e2e2e2;
+  color: #e8e8e8;
 }
 
 .achievement-container {
@@ -446,14 +446,14 @@ header {
 }
 
 .first-achievement-desc h1{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
 }
 
 .first-achievement-desc p{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-size: 20px;
 }
@@ -467,14 +467,14 @@ header {
 }
 
 .second-achievement-desc h1{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
 }
 
 .second-achievement-desc p{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-size: 20px;
 }
@@ -488,14 +488,14 @@ header {
 }
 
 .third-achievement-desc h1{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
 }
 
 .third-achievement-desc p{
-  color: #e2e2e2;
+  color: #e8e8e8;
   font-family: Poppins;
   font-size: 20px;
 }
@@ -538,7 +538,7 @@ header {
 .skillspart h1{
   font-family: Yeseva One;
   font-size: 60px;
-  color: #e2e2e2;
+  color: #e8e8e8;
 }
 
 .timeline-title {
@@ -549,7 +549,7 @@ header {
 .timelinepart h1{
   font-family: Yeseva One;
   font-size: 60px;
-  color: #e2e2e2;
+  color: #e8e8e8;
 }
 
 .timelinepage{
@@ -719,4 +719,336 @@ header {
 .cell img{
   height: 90px;
   width: 90px;
+}
+
+.projectpart h1{
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e8e8e8;
+}
+
+.project-title{
+  text-align: left;
+  margin: 100px 30px;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.first-proj{
+  border: 5px solid #808080;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #1A1A1A;
+}
+
+.second-proj{
+  border: 5px solid #808080;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #1A1A1A;
+}
+
+.third-proj{
+  border: 5px solid #808080;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #1A1A1A;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.images img{
+  height: 225px;
+  width: 375px;
+}
+
+.first-proj .description p{
+  text-align: justify;
+  padding: 0 20px;
+  color: #e8e8e8;
+}
+
+.first-proj .description .button-div{
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.modal{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77,77,77,0.7);
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 15;
+}
+
+.modal:target{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modalcontent{
+  display: flex;
+  position: relative;
+  background: #e2e2e2;
+  height: 650px;
+  width: 1300px;
+  border-radius: 4px;
+}
+
+
+.modalcontent .modal-images-div{
+  height: 650px;
+  width: 1500px;
+}
+
+.modalcontent .modaldesc{
+  margin: 0 10px;
+}
+
+.modaldesc h1{
+  color: #212121;
+}
+
+.modaldesc p{
+  color: #212121;
+}
+
+.modalcontent a{
+  font-size: 21px;
+  font: 600;
+  color: #ff0000;
+}
+
+
+.modalcontent img{
+  padding: 10px;
+  width: 350px;
+  height: auto;
+}
+
+.proj1-img1 {
+  display: flex;
+  justify-content: center;
+}
+
+.proj1-img1 img{
+  width: 800px;
+  height: auto;
+}
+
+.proj1-img2{
+  display: flex;
+  justify-content: center;
+}
+.modalclose{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #585858;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.second-proj .description p{
+  text-align: justify;
+  padding: 0 20px;
+  color: #e8e8e8;
+}
+
+.second-proj .description .button-div{
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.third-proj .description p{
+  text-align: justify;
+  padding: 0 20px;
+  color: #e8e8e8;
+}
+
+.third-proj .description .button-div{
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.bn39 {
+  background-image: linear-gradient(135deg, #008aff, #86d472);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  height: 40px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 6em;
+  z-index: 2;
+}
+
+.bn39:hover {
+  color: #fff;
+}
+
+.bn39 .bn39span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn39:hover .bn39span {
+  background: transparent;
+}
+
+.educationpart h1{
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e8e8e8;
+}
+
+.education-title{
+  text-align: left;
+  margin: 100px 30px;
+}
+
+.education-container{
+  display: flex;
+  margin-bottom: 100px;
+}
+.elem-container{
+  display: flex;
+  width: 500px;
+  height: 100px;
+  margin: 50px 30px;
+  gap: 10px;
+}
+
+.elem-container img{
+  width: 100px;
+  height: 100px;
+}
+
+.hs-container{
+  display: flex;
+  width: 500px;
+  height: 100px;
+  margin: 50px 30px;
+  gap: 10px;
+}
+
+.hs-container img{
+  width: 100px;
+  height: 100px;
+}
+
+
+footer{
+  background-color: #e2e2e2;
+  height: 200px;
+  width: 100%;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #212121;
+}
+
+.footer-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #212121;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  background-color: #212121;
+  align-items: center;
+}
+
+.button:hover .svgIcon {
+  /* width: 20px; */
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+.button::before {
+  position: absolute;
+  bottom: -20px;
+  content: "Back to Top";
+  color: white;
+  /* transition-duration: .3s; */
+  font-size: 0px;
+}
+
+.button:hover::before {
+  font-size: 13px;
+  opacity: 1;
+  bottom: unset;
+  /* transform: translateY(-30px); */
+  transition-duration: 0.3s;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
 }
