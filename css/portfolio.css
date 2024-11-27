@@ -1,0 +1,279 @@
+body{
+    background-color: #212121;
+}
+
+.projectpart h1{
+    font-family: Yeseva One;
+    font-size: 60px;
+    color: #e8e8e8;
+    text-align: center;
+  }
+  
+  .project-title{
+    text-align: left;
+    margin: 100px 30px;
+  }
+  
+  .first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  .first-proj{
+    border: 5px solid #808080;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #1A1A1A;
+  }
+  
+  .second-proj{
+    border: 5px solid #808080;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #1A1A1A;
+  }
+  
+  .third-proj{
+    border: 5px solid #808080;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #1A1A1A;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .images img{
+    height: 225px;
+    width: 375px;
+  }
+  
+  .first-proj .description h1{
+    text-align: center;
+    font-size: 20px;
+    color: #e8e8e8;
+  }
+  
+  .first-proj .description p{
+    text-align: justify;
+    padding: 0 20px;
+    color: #e8e8e8;
+  }
+  
+  .first-proj .description .button-div{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .second-proj .description h1{
+    text-align: center;
+    font-size: 20px;
+    color: #e8e8e8;
+  }
+  
+  .second-proj .description p{
+    text-align: justify;
+    padding: 0 20px;
+    color: #e8e8e8;
+  }
+  
+  .third-proj .description h1{
+    text-align: center;
+    font-size: 20px;
+    color: #e8e8e8;
+  }
+  
+  .third-proj .description p{
+    text-align: justify;
+    padding: 0 20px;
+    color: #e8e8e8;
+  }
+  
+  .second-proj .description .button-div{
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .second-proj img{
+    height: 225px;
+    width: auto;
+  }
+  
+  .third-proj img{
+    height: 225px;
+    width: auto;
+  }
+  
+  .modal{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77,77,77,0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 15;
+  }
+  
+  .modal:target{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modalcontent{
+    display: flex;
+    position: relative;
+    background: #e2e2e2;
+    height: 700px;
+    width: 1400px;
+    border-radius: 4px;
+  }
+  
+  .modalcontent .modal-images-div{
+    height: 650px;
+    width: 1500px;
+  }
+  
+  .modalcontent .modaldesc{
+    margin: 0 10px;
+  }
+  
+  .modaldesc h1{
+    color: #212121;
+  }
+  
+  .modaldesc p{
+    padding-right: 10px;
+    text-align: justify;
+    font-family: Poppins;
+    color: #212121;
+  }
+  
+  .modalcontent a{
+    font-size: 21px;
+    font: 600;
+    color: #ff0000;
+  }
+  
+  
+  .modalcontent img{
+    padding: 10px;
+    width: 350px;
+    height: auto;
+  }
+  
+  .proj1-img1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .proj1-img1 img{
+    width: 800px;
+    height: auto;
+  }
+  
+  .proj2-img1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .proj2-img1 img{
+    width: 300px;
+    height: auto;
+  }
+  
+  .proj3-img1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .proj3-img1 img{
+    width: 300px;
+    height: auto;
+  }
+  
+  .proj1-img2{
+    display: flex;
+    justify-content: center;
+  }
+  .modalclose{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #585858;
+    text-decoration: none;
+    font-size: 36px;
+  }
+  
+  .second-proj .description p{
+    text-align: justify;
+    padding: 0 20px;
+    color: #e8e8e8;
+  }
+  
+  .third-proj .description p{
+    text-align: justify;
+    padding: 0 20px;
+    color: #e8e8e8;
+  }
+  
+  .third-proj .description .button-div{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .bn39 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 6em;
+    z-index: 2;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+  
+  .bn39:hover .bn39span {
+    background: transparent;
+  }

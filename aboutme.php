@@ -20,7 +20,7 @@
         <div class="navbar">
             <div class="navdiv">
                 <div class="logo">
-                    <a href="#">
+                    <a href="index.php">
                         <img src="assets/images/Logo.png" alt="My Logo">
                     </a>
                 </div>
@@ -29,8 +29,8 @@
                 <li class="navmenu_items"><a href="index.php">Home</a></li>
                 <li class="navmenu_items"><a href="#">About Me</a></li>
                 <li class="navmenu_items"><a href="skills.php">Skills</a></li>
-                <li class="navmenu_items"><a href="#">Portfolio</a></li>
-                <a href="#" class="bn5">Contact Me</a>
+                <li class="navmenu_items"><a href="portfolio.php">Portfolio</a></li>
+                <a href="contactme.php" class="bn5">Contact Me</a>
             </ul>
         </div>
     </header>
