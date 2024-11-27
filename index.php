@@ -23,7 +23,7 @@
                 <ul class="navmenu">
                     <li class="navmenu_items"><a href="#">Home</a></li>
                     <li class="navmenu_items"><a href="aboutme.php">About Me</a></li>
-                    <li class="navmenu_items"><a href="#">Skills</a></li>
+                    <li class="navmenu_items"><a href="skills.php">Skills</a></li>
                     <li class="navmenu_items"><a href="#">Portfolio</a></li>
                     <a href="#" class="bn5">Contact Me</a>
                 </ul>
@@ -103,12 +103,12 @@
 
         <div class="intro-desc">
             <h1>Meet Jay</h1>
-            <p>Hi, I’m Jay, a.k.a. Lynx, a 4th-year Computer Engineering student with a deep passion for 
-                technology and software development. I specialize in creating innovative solutions 
-                and am experienced in working with languages such as Java, HTML, CSS, JavaScript, PHP, C, 
-                and C++. Along with my academic pursuits, I’m an avid gamer and streamer in my 
-                free time—some of my favorite games include Minecraft, Assassin's Creed, Valorant, 
-                and MLBB. When I'm not coding or gaming, you’ll likely find me watching movies, enjoying 
+            <p>Hi, I’m Jay, a.k.a. Lynx, a 4th-year Computer Engineering student with a deep passion for
+                technology and software development. I specialize in creating innovative solutions
+                and am experienced in working with languages such as Java, HTML, CSS, JavaScript, PHP, C,
+                and C++. Along with my academic pursuits, I’m an avid gamer and streamer in my
+                free time—some of my favorite games include Minecraft, Assassin's Creed, Valorant,
+                and MLBB. When I'm not coding or gaming, you’ll likely find me watching movies, enjoying
                 good food, or spending time with my cats.
             </p>
 
@@ -124,12 +124,12 @@
         <div class="achievement-container">
             <div class="first-achievement-desc">
                 <h1>Chess Tournament</h1>
-                <p>During my elementary years, I had the opportunity to compete in a chess tournament 
-                    where I proudly placed 3rd. It was a memorable experience that sparked my love for 
-                    the game and strategic thinking. I enjoy exploring various chess openings, with some 
-                    of my favorites being the Caro-Kann, Queen's Gambit, Queen's Opening, and King's 
-                    Opening. These strategies have not only sharpened my skills on the chessboard but also 
-                    influenced my approach to problem-solving in my studies and projects. Chess remains 
+                <p>During my elementary years, I had the opportunity to compete in a chess tournament
+                    where I proudly placed 3rd. It was a memorable experience that sparked my love for
+                    the game and strategic thinking. I enjoy exploring various chess openings, with some
+                    of my favorites being the Caro-Kann, Queen's Gambit, Queen's Opening, and King's
+                    Opening. These strategies have not only sharpened my skills on the chessboard but also
+                    influenced my approach to problem-solving in my studies and projects. Chess remains
                     one of my favorite hobbies, blending competition with intellect.
                 </p>
             </div>
@@ -146,14 +146,14 @@
             </div>
             <div class="second-achievement-desc">
                 <h1>ICPEP Challenge</h1>
-                <p>In the regional ICPEP challenge, I had the privilege of competing 
-                    in the C programming category, where I earned 1st runner-up. I 
-                    completed the entire challenge with a perfect score in under an hour, 
-                    well ahead of my competitors. The experience showcased not only my speed 
-                    and efficiency in coding but also my ability to solve complex problems 
-                    under time pressure. This accomplishment has been a significant milestone 
+                <p>In the regional ICPEP challenge, I had the privilege of competing
+                    in the C programming category, where I earned 1st runner-up. I
+                    completed the entire challenge with a perfect score in under an hour,
+                    well ahead of my competitors. The experience showcased not only my speed
+                    and efficiency in coding but also my ability to solve complex problems
+                    under time pressure. This accomplishment has been a significant milestone
                     in my journey as a programmer, reinforcing my passion for coding and sharpening
-                     my problem-solving skills.
+                    my problem-solving skills.
                 </p>
             </div>
         </div>
@@ -163,11 +163,11 @@
         <div class="achievement-container">
             <div class="third-achievement-desc">
                 <h1>Outstanding student</h1>
-                <p>I graduated with High Honor in my senior high school year in Assembly Woman Felicita G. Bernardino 
-                    Memorial Trade School, a testament to my dedication and commitment to academic excellence. 
-                    My journey as a consistent honor student began as early as nursery, 
-                    and I’ve maintained that level of achievement throughout my academic career. 
-                    This continuous drive for success has not only shaped my work ethic but also fueled my passion 
+                <p>I graduated with High Honor in my senior high school year in Assembly Woman Felicita G. Bernardino
+                    Memorial Trade School, a testament to my dedication and commitment to academic excellence.
+                    My journey as a consistent honor student began as early as nursery,
+                    and I’ve maintained that level of achievement throughout my academic career.
+                    This continuous drive for success has not only shaped my work ethic but also fueled my passion
                     for learning, which I carry into my studies as a Computer Engineering student.
                 </p>
             </div>
@@ -342,12 +342,12 @@
                     <div class="text-box">
                         <h2>Object Oriented Programming</h2>
                         <small>2021 - 2022</small>
-                        <p>During this phase, I delved into the principles of Object-Oriented Programming (OOP) 
-                            by developing projects in Java using NetBeans IDE. This experience allowed me to 
-                            design and implement real-world applications, applying core OOP concepts such as 
+                        <p>During this phase, I delved into the principles of Object-Oriented Programming (OOP)
+                            by developing projects in Java using NetBeans IDE. This experience allowed me to
+                            design and implement real-world applications, applying core OOP concepts such as
                             encapsulation, inheritance, polymorphism, and abstraction. Leveraging NetBeans'
-                             powerful debugging tools and user-friendly interface, I enhanced my programming 
-                             skills and deepened my understanding of software development methodologies.
+                            powerful debugging tools and user-friendly interface, I enhanced my programming
+                            skills and deepened my understanding of software development methodologies.
                         </p>
                         <span class="left-container-arrow"></span>
                     </div>
@@ -357,11 +357,11 @@
                     <div class="text-box">
                         <h2>JAAMPS Calculator</h2>
                         <small>2022 - 2023</small>
-                        <p>As part of this project, I designed and built an innovative engineering calculator 
-                            application using Android Studio. The app offered functionalities such as advanced 
-                            computations, resistor value decoding from color codes, and seamless conversion between 
-                            various engineering metrics (e.g., voltage, current, resistance, and more). 
-                            This project honed my skills in Android app development, UI/UX design, and 
+                        <p>As part of this project, I designed and built an innovative engineering calculator
+                            application using Android Studio. The app offered functionalities such as advanced
+                            computations, resistor value decoding from color codes, and seamless conversion between
+                            various engineering metrics (e.g., voltage, current, resistance, and more).
+                            This project honed my skills in Android app development, UI/UX design, and
                             integrating real-world engineering concepts into functional software solutions.
                         </p>
                         <span class="right-container-arrow"></span>
@@ -372,14 +372,14 @@
                     <div class="text-box">
                         <h2>Barangay Tambubong Scheduling Kiosk</h2>
                         <small>2023-2024</small>
-                        <p>In this project, I developed a comprehensive barangay kiosk system to streamline local 
-                            services and improve accessibility. The system featured a mobile application, 
-                            built using Android Studio, that provided users with a convenient way to access barangay 
-                            information and services. Complementing the app, I designed a responsive website using 
-                            HTML, CSS, and JavaScript to ensure seamless interaction across various devices. For 
-                            data storage and management, I integrated Firebase, enabling secure, real-time updates 
-                            and efficient handling of user data and service requests. This project demonstrated my 
-                            ability to combine mobile development, web technologies, and cloud-based solutions into 
+                        <p>In this project, I developed a comprehensive barangay kiosk system to streamline local
+                            services and improve accessibility. The system featured a mobile application,
+                            built using Android Studio, that provided users with a convenient way to access barangay
+                            information and services. Complementing the app, I designed a responsive website using
+                            HTML, CSS, and JavaScript to ensure seamless interaction across various devices. For
+                            data storage and management, I integrated Firebase, enabling secure, real-time updates
+                            and efficient handling of user data and service requests. This project demonstrated my
+                            ability to combine mobile development, web technologies, and cloud-based solutions into
                             a cohesive and user-friendly system.
                         </p>
                         <span class="left-container-arrow"></span>
@@ -390,10 +390,10 @@
                     <div class="text-box">
                         <h2>Dictionary</h2>
                         <small>2023 - 2024</small>
-                        <p>I created a mobile dictionary app powered by Node.js and the Merriam-Webster API. 
-                            The app allowed users to search for word definitions, synonyms, and examples, providing 
-                            a fast and user-friendly experience. By integrating the Merriam-Webster API, I 
-                            ensured accurate and up-to-date linguistic data. This project enhanced my skills in 
+                        <p>I created a mobile dictionary app powered by Node.js and the Merriam-Webster API.
+                            The app allowed users to search for word definitions, synonyms, and examples, providing
+                            a fast and user-friendly experience. By integrating the Merriam-Webster API, I
+                            ensured accurate and up-to-date linguistic data. This project enhanced my skills in
                             backend development, API integration, and building responsive, data-driven mobile applications.
                         </p>
                         <span class="right-container-arrow"></span>
@@ -404,14 +404,14 @@
                     <div class="text-box">
                         <h2>Discord Bots</h2>
                         <small>2023 - Present</small>
-                        <p>I developed custom bots for Discord, enhancing server functionality and user engagement. 
-                            These bots were programmed to perform various tasks, such as managing moderation, 
-                            automating repetitive actions, providing information, and enabling interactive features 
-                            like games or custom commands. By leveraging Discord’s API and tools like JavaScript and 
+                        <p>I developed custom bots for Discord, enhancing server functionality and user engagement.
+                            These bots were programmed to perform various tasks, such as managing moderation,
+                            automating repetitive actions, providing information, and enabling interactive features
+                            like games or custom commands. By leveraging Discord’s API and tools like JavaScript and
                             Python, I implemented features tailored to server needs,
-                             including real-time data fetching, role management, and message handling. 
-                             This project strengthened my understanding of APIs, event-driven programming, and 
-                             creating dynamic user experiences within online communities.
+                            including real-time data fetching, role management, and message handling.
+                            This project strengthened my understanding of APIs, event-driven programming, and
+                            creating dynamic user experiences within online communities.
                         </p>
                         <span class="left-container-arrow"></span>
                     </div>
@@ -421,15 +421,15 @@
                     <div class="text-box">
                         <h2>Matlab Projects</h2>
                         <small>2024 - Present</small>
-                        <p>In this project, I utilized MATLAB to design and analyze a Digital Signal Processing 
-                            (DSP) system. The project involved implementing various DSP techniques, such as signal 
-                            filtering, Fourier analysis, and spectral visualization, to process and interpret 
-                            real-world signals. MATLAB’s extensive library of built-in functions and its powerful 
-                            simulation tools enabled me to model, test, and optimize the system effectively. 
-                            This experience deepened my understanding of signal processing concepts and demonstrated 
+                        <p>In this project, I utilized MATLAB to design and analyze a Digital Signal Processing
+                            (DSP) system. The project involved implementing various DSP techniques, such as signal
+                            filtering, Fourier analysis, and spectral visualization, to process and interpret
+                            real-world signals. MATLAB’s extensive library of built-in functions and its powerful
+                            simulation tools enabled me to model, test, and optimize the system effectively.
+                            This experience deepened my understanding of signal processing concepts and demonstrated
                             the practical application of MATLAB in solving complex engineering problems.
                         </p>
-                        <span class="left-container-arrow"></span>
+                        <span class="right-container-arrow"></span>
                     </div>
                 </div>
             </div>
@@ -454,14 +454,14 @@
                     </div>
                     <div class="modaldesc">
                         <h1>Barangay Scheduling KIOSK</h1>
-                        <p>In this project, I developed a comprehensive barangay kiosk system to streamline local 
-                            services and improve accessibility. The system featured a mobile application, 
-                            built using Android Studio, that provided users with a convenient way to access barangay 
-                            information and services. Complementing the app, I designed a responsive website using 
-                            HTML, CSS, and JavaScript to ensure seamless interaction across various devices. For 
-                            data storage and management, I integrated Firebase, enabling secure, real-time updates 
-                            and efficient handling of user data and service requests. This project demonstrated my 
-                            ability to combine mobile development, web technologies, and cloud-based solutions into 
+                        <p>In this project, I developed a comprehensive barangay kiosk system to streamline local
+                            services and improve accessibility. The system featured a mobile application,
+                            built using Android Studio, that provided users with a convenient way to access barangay
+                            information and services. Complementing the app, I designed a responsive website using
+                            HTML, CSS, and JavaScript to ensure seamless interaction across various devices. For
+                            data storage and management, I integrated Firebase, enabling secure, real-time updates
+                            and efficient handling of user data and service requests. This project demonstrated my
+                            ability to combine mobile development, web technologies, and cloud-based solutions into
                             a cohesive and user-friendly system.
                         </p>
                     </div>
@@ -480,11 +480,11 @@
                     </div>
                     <div class="modaldesc">
                         <h1>JAAMPS Engineering Calculator</h1>
-                        <p>As part of this project, I designed and built an innovative engineering calculator 
-                            application using Android Studio. The app offered functionalities such as advanced 
-                            computations, resistor value decoding from color codes, and seamless conversion between 
-                            various engineering metrics (e.g., voltage, current, resistance, and more). 
-                            This project honed my skills in Android app development, UI/UX design, and 
+                        <p>As part of this project, I designed and built an innovative engineering calculator
+                            application using Android Studio. The app offered functionalities such as advanced
+                            computations, resistor value decoding from color codes, and seamless conversion between
+                            various engineering metrics (e.g., voltage, current, resistance, and more).
+                            This project honed my skills in Android app development, UI/UX design, and
                             integrating real-world engineering concepts into functional software solutions.
                         </p>
                     </div>
@@ -495,7 +495,7 @@
             <div class="modal" id="modalbox3">
                 <div class="modalcontent">
                     <div class="modal-images-div">
-                    <div class="proj3-img1">
+                        <div class="proj3-img1">
                             <img src="assets/images/WORD OF THE DAY PAGE 1.png" alt="Project 1">
                             <img src="assets/images/SEARCH BAR PAGE.png" alt="Project 1">
                             <img src="assets/images/RECENT WORD PAGE.png" alt="Project 1">
@@ -503,12 +503,12 @@
                     </div>
                     <div class="modaldesc">
                         <h1>Dictionary with Merriam-Webster API</h1>
-                        <p>I created a mobile dictionary app powered by 
-                            Node.js and the Merriam-Webster API. The app 
-                            allowed users to search for word definitions, 
-                            synonyms, and examples, providing a fast and user-friendly experience. 
-                            By integrating the Merriam-Webster API, I ensured accurate and 
-                            up-to-date linguistic data. This project enhanced my skills in backend 
+                        <p>I created a mobile dictionary app powered by
+                            Node.js and the Merriam-Webster API. The app
+                            allowed users to search for word definitions,
+                            synonyms, and examples, providing a fast and user-friendly experience.
+                            By integrating the Merriam-Webster API, I ensured accurate and
+                            up-to-date linguistic data. This project enhanced my skills in backend
                             development, API integration, and building responsive, data-driven mobile applications.
                         </p>
                     </div>
@@ -523,10 +523,10 @@
                 <div class="description">
                     <h1>Barangay Tambubong Scheduling Kiosk</h1>
                     <p>
-                        I developed a barangay kiosk system to streamline services and improve accessibility. 
+                        I developed a barangay kiosk system to streamline services and improve accessibility.
                         It included a mobile app built with Android Studio, a responsive website using HTML,
-                         CSS, and JavaScript, and Firebase for secure, real-time data management. This project 
-                         showcased my skills in mobile development, web technologies, and cloud-based solutions.
+                        CSS, and JavaScript, and Firebase for secure, real-time data management. This project
+                        showcased my skills in mobile development, web technologies, and cloud-based solutions.
                     </p>
                     <div class="button-div">
                         <a class="bn39" href="#modalbox"><span class="bn39span">Button</span></a>
@@ -541,9 +541,9 @@
                 <div class="description">
                     <h1>JAAMPS Engineering Calculator</h1>
                     <p>
-                        I developed an engineering calculator app using Android Studio with features like 
-                        advanced computations, resistor color code decoding, and metric conversions. 
-                        This project enhanced my skills in Android development, UI/UX design, and integrating 
+                        I developed an engineering calculator app using Android Studio with features like
+                        advanced computations, resistor color code decoding, and metric conversions.
+                        This project enhanced my skills in Android development, UI/UX design, and integrating
                         engineering concepts into software solutions.
                     </p>
                     <div class="button-div">
@@ -557,9 +557,9 @@
                 </div>
                 <div class="description">
                     <h1>Dictionary with<br>Merriam-Webster API</h1>
-                    <p>I developed a mobile dictionary app using Node.js and the Merriam-Webster API, 
-                        enabling users to access word definitions, synonyms, and examples. This project 
-                        enhanced my skills in backend development, API integration, and building responsive 
+                    <p>I developed a mobile dictionary app using Node.js and the Merriam-Webster API,
+                        enabling users to access word definitions, synonyms, and examples. This project
+                        enhanced my skills in backend development, API integration, and building responsive
                         mobile applications.
                     </p>
                     <div class="button-div">
@@ -580,35 +580,34 @@
             <div class="elem-container">
                 <img src="assets/images/elemLogo.jpg" alt="Elem Logo">
                 <div class="desc-container">
-                <small><br>2009 - 2015</small>
-                <p>Northville IV-B Elementary School</p>
+                    <small><br>2009 - 2015</small>
+                    <p>Northville IV-B Elementary School</p>
                 </div>
-
             </div>
-            <div class="hscontainer">
-                <div class="hs-container">
-                    <img src="assets/images/hsLogo.jpg" alt="HS Logo">
-                    <div class="desc-container">
+        <div class="hscontainer">
+            <div class="hs-container">
+                <img src="assets/images/hsLogo.jpg" alt="HS Logo">
+                <div class="desc-container">
                     <small>Strand:</small>
                     <h1>Science, Technology, Engineering, Mathematics</h1>
                     <small><br>2019 - 2021</small>
                     <p>Assembly Woman Felicita G. Bernardino Memorial Trade School</p>
-                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="collcontainer">
-                <div class="hs-container">
-                    <img src="assets/images/collLogo.jpg" alt="HS Logo">
-                    <div class="desc-container">
+        <div class="collcontainer">
+            <div class="hs-container">
+                <img src="assets/images/collLogo.jpg" alt="HS Logo">
+                <div class="desc-container">
                     <small>Program:</small>
                     <h1>Bachelor of Science in Computer Engineering</h1>
                     <small><br>2021 - Present</small>
                     <p>Dr. Yanga's Colleges Inc.</p>
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 

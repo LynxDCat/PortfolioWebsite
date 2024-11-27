@@ -28,7 +28,7 @@
             <ul class="navmenu">
                 <li class="navmenu_items"><a href="index.php">Home</a></li>
                 <li class="navmenu_items"><a href="#">About Me</a></li>
-                <li class="navmenu_items"><a href="#">Skills</a></li>
+                <li class="navmenu_items"><a href="skills.php">Skills</a></li>
                 <li class="navmenu_items"><a href="#">Portfolio</a></li>
                 <a href="#" class="bn5">Contact Me</a>
             </ul>
