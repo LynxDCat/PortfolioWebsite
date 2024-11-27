@@ -4,12 +4,12 @@
 <head>
     <title>My Portfolio</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
 <body>
     <header>
         <nav class="navbar">
@@ -88,6 +88,28 @@
         </div>
     </header>
 
+    <div class="introduction">
+        <hr class="short-horizontal-line">
+
+        <div class="intro-desc">
+            <h1>Meet Jay</h1>
+            <p>Lorem ipsum dolor sit amet. Cum voluptatum reprehenderit et saepe earum 
+                non quam quia est expedita dolorem. Et consectetur cumque eos pariatur 
+                repellendus ut quaerat esse et vero omnis. </p><p>Et cumque tempore sit 
+                laboriosam magni cum pariatur beatae. Aut suscipit quae ut inventore 
+                omnis ut doloribus expedita. </p><p>Hic aliquam laborum vel explicabo 
+                odit eum atque excepturi At adipisci architecto et minus expedita? 
+                Sit laboriosam galisum nam dicta galisum est magnam ipsa ex dignissimos 
+                veritatis non totam placeat. Ut doloribus iusto aut earum impedit et dicta
+                galisum est aliquam cumque et distinctio harum qui dicta veritatis. 
+                Est officiis officiis hic ipsam voluptates vel nesciunt sapiente qui 
+                quia consequatur est autem ipsum est accusantium fuga sed odit ipsa.
+            </p>
+
+            <p>Put carousel here</p>
+        </div>
+    </div>
+
     <div class="achievementspart">
         <div class="achievement-title">
             <h1>ACHIEVEMENTS</h1>
@@ -152,9 +174,34 @@
         </div>
     </div>
 
+    <div class="skillspart">
+        <div class="skills-title">
+            <h1>SKILLS</h1>
+        </div>
+        <div class="grid-div">
+            <div class="collectionView">
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+                <div class="cell"><img src="assets/images/Logo.png" alt="Logo"></div>
+            </div>    
+        </div>
+    </div>
+
     <div class="timelinepart">
         <div class="timeline-title">
-            <h1>TIMELINE</h1>
+            <h1>EXPERIENCES</h1>
         </div>
         <div class="timelinepage">
             <div class="timeline">
@@ -228,9 +275,9 @@
         </div>
     </div>
 
-    <div class="skillspart">
-        <div class="skills-title">
-            <h1>SKILLS</h1>
+    <div class="projectpart">
+        <div class="project-title">
+            <h1>PROJECTS</h1>
         </div>
     </div>
 </body>

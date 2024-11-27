@@ -387,16 +387,50 @@ header {
   color: #fff;
 }
 
+.introduction{
+  background-color: #e2e2e2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: fit-content;
+}
+
+.short-horizontal-line{
+  height: 5px;
+  background-color: #212121;
+  border: 1px solid #212121;
+  margin: 0 700px;
+  margin-bottom: 50px;
+}
+
+.introduction p {
+  color: #212121;
+}
+
+.intro-desc{
+  text-align: justify;
+  margin: 0 50px;
+  color: #212121;
+}
+
+.intro-desc h1{
+  font-family: Poppins;
+  font-size: 40px;
+}
+
+.intro-desc p {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
 .achievement-title{
-  text-align: center;
-  background-color: #909090;
-  border: 5px solid #212121; /* Border with color and thickness */
-  padding-top: 1px;
-  padding-bottom: 1px;
+  text-align: left;
+  margin: 100px 30px;
 }
 
 .achievementspart h1{
-  color: #212121;
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e2e2e2;
 }
 
 .achievement-container {
@@ -497,23 +531,25 @@ header {
 }
 
 .skills-title {
-  text-align: center;
-  background-color: #909090;
-  border: 5px solid #212121; /* Border with color and thickness */
-  padding-top: 1px;
-  padding-bottom: 1px;
+  text-align: left;
+  margin: 100px 30px;
+}
+
+.skillspart h1{
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e2e2e2;
 }
 
 .timeline-title {
-  text-align: center;
-  background-color: #909090;
-  border: 5px solid #212121; /* Border with color and thickness */
-  padding-top: 1px;
-  padding-bottom: 1px;
+  text-align: left;
+  margin: 100px 30px;
 }
 
 .timelinepart h1{
-  color: #212121;
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e2e2e2;
 }
 
 .timelinepage{
@@ -649,4 +685,38 @@ header {
   border-bottom: 15px solid transparent;
   border-right: 15px solid #e8e8e8;
   left: -14px;
+}
+
+.grid-div{
+  display: grid;
+  place-items: center;
+}
+
+
+.collectionView {
+  height: max-content;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 110px);
+  grid-template-rows: max-content;
+  gap: 12px;
+  /*justify-content: center;*/
+}
+
+.cell{
+  height: 100px;
+  width: 100px;
+  background-color: #373737;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.cell img{
+  height: 90px;
+  width: 90px;
 }
