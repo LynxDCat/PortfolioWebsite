@@ -10,9 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
-
-<body>
-    <header>
+</head>
+<header>
         <nav class="navbar">
             <div class="navdiv">
                 <div class="logo">
@@ -29,11 +28,9 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="slanted-edge">
-            <img src="assets/images/Avatar.png" alt="My Avatar" class="avatar">
-        </div>
-
+    </header>
+<body>
+    <div class="whole">
         <div class="landingPageTxt">
             <p class="lPTxt1">Hi, I am</p>
             <div class="text-container">
@@ -93,11 +90,12 @@
                     </a>
 
                 </ul>
-
             </div>
         </div>
-    </header>
-
+        <div class="slanted-edge">
+            <img src="assets/images/Avatar.png" alt="My Avatar" class="avatar">
+        </div>
+    </div>
     <div class="introduction">
         <hr class="short-horizontal-line">
 
@@ -584,30 +582,30 @@
                     <p>Northville IV-B Elementary School</p>
                 </div>
             </div>
-        <div class="hscontainer">
-            <div class="hs-container">
-                <img src="assets/images/hsLogo.jpg" alt="HS Logo">
-                <div class="desc-container">
-                    <small>Strand:</small>
-                    <h1>Science, Technology, Engineering, Mathematics</h1>
-                    <small><br>2019 - 2021</small>
-                    <p>Assembly Woman Felicita G. Bernardino Memorial Trade School</p>
+            <div class="hscontainer">
+                <div class="hs-container">
+                    <img src="assets/images/hsLogo.jpg" alt="HS Logo">
+                    <div class="desc-container">
+                        <small>Strand:</small>
+                        <h1>Science, Technology, Engineering, Mathematics</h1>
+                        <small><br>2019 - 2021</small>
+                        <p>Assembly Woman Felicita G. Bernardino Memorial Trade School</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="collcontainer">
-            <div class="hs-container">
-                <img src="assets/images/collLogo.jpg" alt="HS Logo">
-                <div class="desc-container">
-                    <small>Program:</small>
-                    <h1>Bachelor of Science in Computer Engineering</h1>
-                    <small><br>2021 - Present</small>
-                    <p>Dr. Yanga's Colleges Inc.</p>
+            <div class="collcontainer">
+                <div class="hs-container">
+                    <img src="assets/images/collLogo.jpg" alt="HS Logo">
+                    <div class="desc-container">
+                        <small>Program:</small>
+                        <h1>Bachelor of Science in Computer Engineering</h1>
+                        <small><br>2021 - Present</small>
+                        <p>Dr. Yanga's Colleges Inc.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </body>
 
