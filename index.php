@@ -22,7 +22,7 @@
                 </div>
                 <ul class="navmenu">
                     <li class="navmenu_items"><a href="#">Home</a></li>
-                    <li class="navmenu_items"><a href="#">About Me</a></li>
+                    <li class="navmenu_items"><a href="aboutme.php">About Me</a></li>
                     <li class="navmenu_items"><a href="#">Skills</a></li>
                     <li class="navmenu_items"><a href="#">Portfolio</a></li>
                     <a href="#" class="bn5">Contact Me</a>

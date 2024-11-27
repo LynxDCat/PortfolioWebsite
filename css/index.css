@@ -64,7 +64,7 @@ header {
 .navmenu {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 90px); /* Fixed spacing syntax */
+  width: calc(100% - 90px);
   vertical-align: middle;
 }
 
@@ -84,47 +84,47 @@ header {
   font-weight: 400;
   position: relative;
   padding: 3px 0;
-  overflow: hidden; /* Ensure the animation stays within bounds */
+  overflow: hidden;
   z-index: 2;
 }
 
 .navmenu_items a:before {
   content: '';
   position: absolute;
-  bottom: 0; /* Start at the bottom for underline effect */
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 2px; /* Thickness of the underline */
-  background: #e8e8e8; /* Initial white color for the underline */
-  transform: scaleX(0); /* Start with no visible underline */
-  transform-origin: left; /* Animate from left to right */
-  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  height: 2px;
+  background: #e8e8e8;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
 }
 
 .navmenu_items a:after {
   content: '';
   position: absolute;
-  top: -10%; /* Extend above the text */
-  left: -20%; /* Extend to the left of the text */
-  width: 140%; /* Wider than the text */
-  height: 120%; /* Taller than the text */
-  background: #e8e8e8; /* Fill color */
-  transform: scaleY(0); /* Start collapsed */
-  transform-origin: bottom; /* Expand upward from the bottom */
-  transition: transform 0.3s ease-in-out; /* Smooth upward fill */
-  z-index: -1; /* Place behind the text */
+  top: -10%;
+  left: -20%;
+  width: 140%;
+  height: 120%;
+  background: #e8e8e8;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+  z-index: -1;
 }
 
 .navmenu_items a:hover {
-  color: #212121; /* Change text color on hover */
+  color: #212121;
 }
 
 .navmenu_items a:hover:before {
-  transform: scaleX(1); /* Expand the underline */
+  transform: scaleX(1);
 }
 
 .navmenu_items a:hover:after {
-  transform: scaleY(1); /* Expand upward */
+  transform: scaleY(1);
 }
 
 @keyframes fill {
@@ -147,7 +147,7 @@ header {
   position: relative;
   z-index: 0;
   border-radius: 10px;
-  font-family: Montserrat; /* Match font style */
+  font-family: Montserrat;
   font-weight: 400;
   transition: color 0.3s ease;
   text-decoration: none;

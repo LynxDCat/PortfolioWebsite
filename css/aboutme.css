@@ -1,0 +1,122 @@
+body {
+  background-color: #212121;
+}
+
+.introduction h1 {
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e2e2e2;
+  text-align: center;
+}
+
+.introduction p {
+  font-family: Poppins;
+  font-size: 30px;
+  color: #e2e2e2;
+  text-align: justify;
+  padding: 50px 50px;
+}
+
+.horizontal-line {
+  border: 0;
+  height: 5px;
+  background-color: #909090;
+  margin: 20px 30px;
+}
+
+.gallery h1 {
+  font-family: Yeseva One;
+  font-size: 60px;
+  color: #e2e2e2;
+  text-align: center;
+}
+
+.gallery h2 {
+    margin-top: 100px;
+    font-family: Poppins;
+    font-size: 50px;
+    color: #e2e2e2;
+    text-align: center;
+  }
+
+.grid-div {
+  display: grid;
+  place-items: center;
+}
+
+.collectionView {
+    height: max-content;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: grid;
+    gap: 50px;
+    padding-left: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: max-content;
+  }
+  
+  .cell {
+    width: 300px;
+    background-color: #373737;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .cell img:hover {
+    transform: scale(1.5);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cell img {
+    width: auto; 
+    height: 500px;
+  }
+  
+
+.grid-div2 {
+  display: grid;
+  place-items: center;
+}
+
+.collectionView2 {
+    height: max-content;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .cell2 {
+    background-color: #373737;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .cell2 img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+
+  .cell2 img:hover {
+    transform: scale(1.5);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
