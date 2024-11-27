@@ -1017,6 +1017,13 @@ header {
   display: flex;
   margin-bottom: 100px;
 }
+
+.hscontainer{
+  display: flex;
+  margin-bottom: 100px;
+  width: 700px;
+}
+
 .elem-container{
   display: flex;
   width: 500px;
@@ -1026,8 +1033,8 @@ header {
 }
 
 .elem-container img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .hs-container{
@@ -1038,9 +1045,22 @@ header {
   gap: 10px;
 }
 
+.hs-container .desc-container small{
+  font-size: 10px;
+}
+
+.hs-container .desc-container h1{
+  font-size: 14px;
+}
+
+.hs-container .desc-container p{
+  font-family: Poppins;
+  font-size: 14px;
+}
+
 .hs-container img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 

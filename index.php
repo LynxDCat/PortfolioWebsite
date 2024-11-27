@@ -403,7 +403,7 @@
                     <img src="assets/images/pngwing.com (1).png">
                     <div class="text-box">
                         <h2>Discord Bots</h2>
-                        <small>2023 - now</small>
+                        <small>2023 - Present</small>
                         <p>I developed custom bots for Discord, enhancing server functionality and user engagement. 
                             These bots were programmed to perform various tasks, such as managing moderation, 
                             automating repetitive actions, providing information, and enabling interactive features 
@@ -420,7 +420,7 @@
                     <img src="assets/images/Matlab_Logo.png">
                     <div class="text-box">
                         <h2>Matlab Projects</h2>
-                        <small>2024 - now</small>
+                        <small>2024 - Present</small>
                         <p>In this project, I utilized MATLAB to design and analyze a Digital Signal Processing 
                             (DSP) system. The project involved implementing various DSP techniques, such as signal 
                             filtering, Fourier analysis, and spectral visualization, to process and interpret 
@@ -579,14 +579,33 @@
         <div class="education-container">
             <div class="elem-container">
                 <img src="assets/images/elemLogo.jpg" alt="Elem Logo">
-                <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
-                    quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.</p>
+                <div class="desc-container">
+                <small><br>2009 - 2015</small>
+                <p>Northville IV-B Elementary School</p>
+                </div>
+
             </div>
             <div class="hscontainer">
                 <div class="hs-container">
                     <img src="assets/images/hsLogo.jpg" alt="HS Logo">
-                    <p>Lorem ipsum dolor sit amet. Quo repudiandae saepe in vero omnis et tenetur
-                        quisquam qui tempora iste. Et molestias eius eos porro sint ea expedita autem.</p>
+                    <div class="desc-container">
+                    <small>Strand:</small>
+                    <h1>Science, Technology, Engineering, Mathematics</h1>
+                    <small><br>2019 - 2021</small>
+                    <p>Assembly Woman Felicita G. Bernardino Memorial Trade School</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collcontainer">
+                <div class="hs-container">
+                    <img src="assets/images/collLogo.jpg" alt="HS Logo">
+                    <div class="desc-container">
+                    <small>Program:</small>
+                    <h1>Bachelor of Science in Computer Engineering</h1>
+                    <small><br>2021 - Present</small>
+                    <p>Dr. Yanga's Colleges Inc.</p>
+                    </div>
                 </div>
             </div>
         </div>
