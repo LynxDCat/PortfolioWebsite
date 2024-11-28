@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   position: relative;
   font-family: Roboto;
@@ -12,7 +8,6 @@ body {
 
 header {
   position: relative;
-  height: 100vh; /* Ensure header takes full viewport height */
   overflow: hidden; /* Prevent content from spilling out */
   background-color: #e8e8e8;
 }
@@ -214,9 +209,7 @@ header {
 
 .whole{
   display: flex;
-}
-.whole .landingPageTxt{
-  margin-top: -650px;
+  background-color: #e2e2e2;
 }
 
 .slanted-edge {
@@ -253,6 +246,11 @@ header {
     margin-left: 180px;
     margin-top: 66px;
   }
+
+.landingPageTxt{
+  margin-top: 10px;
+  margin-left: -25px;
+}
 
 .lPTxt1 {
   display: flex;
@@ -503,8 +501,8 @@ header {
 }
 
 .introduction{
-  background-color: #e8e8e8;
-  padding-top: 50px;
+  background-color: #e2e2e2;
+  padding-top: 200px;
   padding-bottom: 50px;
   height: fit-content;
 }
@@ -725,7 +723,7 @@ header {
 }
 
 .left-container {
-  left: 0;
+  left: -100px;
   text-align: justify;
 }
 
@@ -914,7 +912,7 @@ header {
 }
 
 .first-proj .description .button-div{
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   color: #000;
@@ -945,7 +943,7 @@ header {
 }
 
 .second-proj .description .button-div{
-  margin-top: 70px;
+  margin-top: 65px;
   display: flex;
   justify-content: center;
   color: #000;
@@ -982,8 +980,8 @@ header {
   display: flex;
   position: relative;
   background: #e2e2e2;
-  height: 650px;
-  width: 1300px;
+  height: 670px;
+  width: 1400px;
   border-radius: 4px;
 }
 
@@ -1076,7 +1074,7 @@ header {
 }
 
 .third-proj .description .button-div{
-  margin-top: 65px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   color: #000;

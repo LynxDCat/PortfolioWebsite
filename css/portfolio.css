@@ -9,12 +9,12 @@ body{
     text-align: center;
   }
   
-  .project-title{
+  .portfolio-project-title{
     text-align: left;
     margin: 100px 30px;
   }
   
-  .first-row{
+  .portfolio-first-row{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,7 +25,7 @@ body{
     margin-bottom: 100px;
   }
   
-  .first-proj{
+  .portfolio-first-proj{
     border: 5px solid #808080;
     height: 600px;
     width: 400px;
@@ -33,7 +33,7 @@ body{
     background-color: #1A1A1A;
   }
   
-  .second-proj{
+  .portfolio-second-proj{
     border: 5px solid #808080;
     height: 600px;
     width: 400px;
@@ -41,7 +41,7 @@ body{
     background-color: #1A1A1A;
   }
   
-  .third-proj{
+  .portfolio-third-proj{
     border: 5px solid #808080;
     height: 600px;
     width: 400px;
@@ -49,7 +49,7 @@ body{
     background-color: #1A1A1A;
   }
   
-  .images {
+  .portfolio-images {
     display: flex;
     justify-content: center;
     height: 250px;
@@ -57,72 +57,72 @@ body{
     border-radius: 20px;
   }
   
-  .images img{
+  .portfolio-images img{
     height: 225px;
     width: 375px;
   }
   
-  .first-proj .description h1{
+  .portfolio-first-proj .portfolio-description h1{
     text-align: center;
     font-size: 20px;
     color: #e8e8e8;
   }
   
-  .first-proj .description p{
+  .portfolio-first-proj .portfolio-description p{
     text-align: justify;
     padding: 0 20px;
     color: #e8e8e8;
   }
   
-  .first-proj .description .button-div{
-    margin-top: 80px;
+  .portfolio-first-proj .portfolio-description .portfolio-button-div{
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     color: #000;
   }
   
-  .second-proj .description h1{
+  .portfolio-second-proj .portfolio-description h1{
     text-align: center;
     font-size: 20px;
     color: #e8e8e8;
   }
   
-  .second-proj .description p{
+  .portfolio-second-proj .portfolio-description p{
     text-align: justify;
     padding: 0 20px;
     color: #e8e8e8;
   }
   
-  .third-proj .description h1{
+  .portfolio-third-proj .portfolio-description h1{
     text-align: center;
     font-size: 20px;
     color: #e8e8e8;
   }
   
-  .third-proj .description p{
+  .portfolio-third-proj .portfolio-description p{
     text-align: justify;
     padding: 0 20px;
     color: #e8e8e8;
   }
   
-  .second-proj .description .button-div{
-    margin-top: 95px;
+  .portfolio-second-proj .portfolio-description .portfolio-button-div{
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     color: #000;
   }
   
-  .second-proj img{
+  .portfolio-second-proj img{
     height: 225px;
     width: auto;
   }
   
-  .third-proj img{
+  .portfolio-third-proj img{
     height: 225px;
     width: auto;
   }
   
-  .modal{
+  .portfolio-modal{
     position: absolute;
     display: flex;
     align-items: center;
@@ -134,12 +134,12 @@ body{
     z-index: 15;
   }
   
-  .modal:target{
+  .portfolio-modal:target{
     visibility: visible;
     opacity: 1;
   }
   
-  .modalcontent{
+  .portfolio-modalcontent{
     display: flex;
     position: relative;
     background: #e2e2e2;
@@ -148,74 +148,75 @@ body{
     border-radius: 4px;
   }
   
-  .modalcontent .modal-images-div{
+  .portfolio-modalcontent .portfolio-modal-images-div{
     height: 650px;
     width: 1500px;
   }
   
-  .modalcontent .modaldesc{
+  .portfolio-modalcontent .portfolio-modaldesc{
     margin: 0 10px;
   }
   
-  .modaldesc h1{
+  .portfolio-modaldesc h1{
     color: #212121;
   }
   
-  .modaldesc p{
+  .portfolio-modaldesc p{
     padding-right: 10px;
     text-align: justify;
     font-family: Poppins;
     color: #212121;
   }
   
-  .modalcontent a{
+  .portfolio-modalcontent a{
     font-size: 21px;
     font: 600;
     color: #ff0000;
   }
   
   
-  .modalcontent img{
+  .portfolio-modalcontent img{
     padding: 10px;
     width: 350px;
     height: auto;
   }
   
-  .proj1-img1 {
+  .portfolio-proj1-img1 {
     display: flex;
     justify-content: center;
   }
   
-  .proj1-img1 img{
+  .portfolio-proj1-img1 img{
     width: 800px;
     height: auto;
   }
   
-  .proj2-img1 {
+  .portfolio-proj2-img1 {
     display: flex;
     justify-content: center;
   }
   
-  .proj2-img1 img{
+  .portfolio-proj2-img1 img{
     width: 300px;
     height: auto;
   }
   
-  .proj3-img1 {
+  .portfolio-proj3-img1 {
     display: flex;
     justify-content: center;
   }
   
-  .proj3-img1 img{
+  .portfolio-proj3-img1 img{
     width: 300px;
     height: auto;
   }
   
-  .proj1-img2{
+  .portfolio-proj1-img2{
     display: flex;
     justify-content: center;
   }
-  .modalclose{
+
+  .portfolio-modalclose{
     position: absolute;
     top: 0;
     right: 15px;
@@ -224,20 +225,20 @@ body{
     font-size: 36px;
   }
   
-  .second-proj .description p{
+  .portfolio-second-proj .portfolio-description p{
     text-align: justify;
     padding: 0 20px;
     color: #e8e8e8;
   }
   
-  .third-proj .description p{
+  .portfolio-third-proj .portfolio-description p{
     text-align: justify;
     padding: 0 20px;
     color: #e8e8e8;
   }
   
-  .third-proj .description .button-div{
-    margin-top: 65px;
+  .portfolio-third-proj .portfolio-description .portfolio-button-div{
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     color: #000;

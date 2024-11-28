@@ -2,14 +2,24 @@ body {
   background-color: #212121;
 }
 
-.introduction h1 {
+header {
+  position: relative;
+  overflow: hidden; /* Prevent content from spilling out */
+  background-color: #212121;
+}
+
+.introduction-aboutme{
+  background-color: #212121;
+}
+
+.introduction-aboutme h1 {
   font-family: Yeseva One;
   font-size: 60px;
   color: #e2e2e2;
   text-align: center;
 }
 
-.introduction p {
+.introduction-aboutme p {
   font-family: Poppins;
   font-size: 30px;
   color: #e2e2e2;
@@ -39,12 +49,12 @@ body {
     text-align: center;
   }
 
-.grid-div {
+.grid-div1 {
   display: grid;
   place-items: center;
 }
 
-.collectionView {
+.collectionView1 {
     height: max-content;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -57,7 +67,7 @@ body {
     grid-template-rows: max-content;
   }
   
-  .cell {
+  .cell1 {
     width: 300px;
     background-color: #373737;
     border-radius: 15px;
@@ -69,13 +79,13 @@ body {
     overflow: hidden;
   }
   
-  .cell img:hover {
+  .cell1 img:hover {
     transform: scale(1.5);
     transform-origin: center;
     transition: transform 0.3s ease;
   }
   
-  .cell img {
+  .cell1 img {
     width: auto; 
     height: 500px;
   }
